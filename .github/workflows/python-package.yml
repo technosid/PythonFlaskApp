@@ -41,7 +41,7 @@ jobs:
 
 
   sonar-qube-sacnner:
-    name: Build
+    name: sonar-qube-sacnner
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
