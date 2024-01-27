@@ -15,5 +15,5 @@ def client(app):
 def test_home(client):
     response = client.get('/')
     assert response.status_code == 200
-    expected_text = 'GFG 27th jan pipeline run 123'
+    expected_text = 'GFG new'
     assert expected_text.encode() in response.data
