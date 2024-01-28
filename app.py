@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'GFG 27th jan pipeline run 123456'
+        return 'GFG 27th jan pipeline run 12345678'
 
     return app
 if __name__ == '__main__':
